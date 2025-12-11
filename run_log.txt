@@ -1,0 +1,38 @@
+(.venv) PS D:\selected topics\my-langgraph-swarm> python main.py
+Multi-Agent Swarm with llama2 (temperature=0) - FIXED!
+
+Enter topic: what is the css
+
+Agents working...
+======================================================================
+SUPERVISOR: Decides RESEARCHER (no research yet).
+----------------------------------------------------------------------
+RESEARCHER: Gathered facts.
+
+Sure! Here are five key aspects of CSS:
+
+1. **Cascading**: CSS allows for a hierarchical structure of styles, where more specific styles override less specific ones. This means that you can create a clear and organized structure of rules for your website's layout and design.
+2. **Selectors**: CSS uses selectors to target specific elements on a web page. Selectors can be based on various attributes such as tag name, class, ID, attribute, or even the position of an element on the page. This allows you to apply styles to exactly the elements you want, without affecting other parts of the page.   
+3. **Properties**: CSS defines a set of properties that can be applied to elements using selectors. Properties include things like font size, color, background color, padding, margin, and more. You can use these properties to control the layout and appearance of your website's elements.
+4. **Values**: Each property in CSS has a specific value that is used to apply the style. For example, the "font-size" property might have values like "16px", "20px", or "1rem". You can use these values to set the exact style you want for each element on your page.
+5. **Media queries**: CSS allows you to apply different styles based on different media types, such as screen, print, or speech. This means you can create responsive designs that adapt to different devices and situations, ensuring a consistent user experience across all platforms.
+----------------------------------------------------------------------
+SUPERVISOR: Decides WRITER (research done, no article yet).
+----------------------------------------------------------------------
+WRITER: Article complete.
+
+CSS, or Cascading Style Sheets, is a powerful tool for creating the layout and design of websites. At its core, CSS allows for a hierarchical structure of styles, where more specific styles override less specific ones. This means that you can create a clear and organized structure of rules for your website's layout and design.
+
+In addition to this hierarchical structure, CSS also uses selectors to target specific elements on a web page. Selectors can be based on various attributes such as tag name, class, ID, attribute, or even the position of an element on the page. This allows you to apply styles to exactly the elements you want, without affecting other parts of the page.
+
+CSS also defines a set of properties that can be applied to elements using selectors. These properties include things like font size, color, background color, padding, margin, and more. You can use these properties to control the layout and appearance of your website's elements.
+
+Each property in CSS has a specific value that is used to apply the style. For example, the "font-size" property might have values like "16px", "20px", or "1rem". You can use these values to set the exact style you want for each element on your page.
+
+Finally, CSS allows you to apply different styles based on different media types, such as screen, print, or speech. This means you can create responsive designs that adapt to different devices and situations, ensuring a consistent user experience across all platforms.
+
+In conclusion, CSS is a powerful tool for creating the layout and design of websites. Its hierarchical structure, use of selectors, and ability to define properties and values make it an essential part of any web development project. Additionally, its media queries allow for responsive designs that adapt to different devices and situations, ensuring a consistent user experience across all platforms.   
+----------------------------------------------------------------------
+SUPERVISOR: Decides FINISH (article done).
+Done! Checkpoints saved in checkpoints.db (persistent memory).
+(.venv) PS D:\selected topics\my-langgraph-swarm>
