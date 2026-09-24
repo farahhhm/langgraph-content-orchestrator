@@ -2,7 +2,7 @@ Here is the **complete `README.md` for `langgraph-content-orchestrator`** in one
 
 ***
 
-# 🎼 LangGraph Content Orchestrator (`langgraph-content-orchestrator`)
+#  LangGraph Content Orchestrator (`langgraph-content-orchestrator`)
 
 An autonomous multi-agent content generation system built with **LangGraph**, **LangChain**, and local AI (**Ollama `llama2`**). This project demonstrates an orchestrated workflow where a **Supervisor AI** coordinates a **Researcher AI** and a **Writer AI** to create factual articles with built-in SQLite memory persistence.
 
